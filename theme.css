@@ -127,3 +127,62 @@
 
 
 
+.layout__center .protyle-wysiwyg:not([data-doc-type="NodeDocument"]) {
+    animation: focus 0.3s ease-in-out;
+}
+.protyle-gutters {
+    transition: all 200ms ease-out;
+}
+@keyframes focus {
+	0% {transform: scaleY(1.3);
+	transform-origin: 0 0 ;
+		opacity: 0;}
+	100% { transform: scaleY(1); 
+	 }
+}
+@keyframes menu {
+	0% {opacity: 0;}
+	50% { transform: scale(1.01);
+	transform-origin: 0 0 ;
+          opacity: 0.5;	}
+	100% { transform: scale(1); 
+	 }
+}
+.b3-menu {
+    animation: menu 0.4s ease-in-out;
+}
+.b3-menu__submenu {
+animation: caidan 0.5s ease-in-out;
+}
+@keyframes caidan {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-10px, -10px); /* Safari */
+    transform: translate(-20px, -0px); /* 标准语法 */
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 10px); /* Safari */
+    transform: translate(0, 0px); /* 标准语法 */
+  }
+  .b3-menu .b3-menu__submenu {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 6px 5px;
+  }
+}
+.b3-menu__item.b3-menu__item--readonly:hover {
+   background-color:transparent !important;
+   color:inherit !important;
+}
+
+@keyframes fullscreen { 0% { opacity: 0; } 50% { transform: scale(1.01); opacity: 0.5; } }
+
+.fullscreen {
+   z-index:2;
+   animation:0.4s fullscreen ease-in-out;
+}
+
+.layout-tab-bar .item--full {
+   min-width:5em !important;
+}
