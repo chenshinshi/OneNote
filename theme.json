@@ -1,0 +1,18 @@
+{
+  "name": "OneNote",
+  "author": "UserZYF",
+  "url": "https://github.com/chenshinshi/OneNote",
+  "version": "0.14",
+    "displayName": {
+    "default": "OneNote"
+  },
+    "description": {
+    "default": "类OneNote外观主题。"
+  },
+  "readme": {
+    "default": "README.md"
+  },
+  "modes": [
+    "light"
+  ]
+}

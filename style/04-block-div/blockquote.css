@@ -1,0 +1,29 @@
+/* 设置引用样式（排除列表中引用样式） */
+.protyle-wysiwyg [data-node-id].bq:not(div.list div.bq),
+.b3-typography blockquote {
+    border-left-color: #ebebeb;
+    padding: 0px 4px 0px 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* 设置列表中的引用样式 */
+div.list div.bq {
+    min-height: 26px;
+    padding: 0px !important;
+    border-left-width: 4px;
+}
+
+div.list div.bq div.p {
+    padding: 4px 0 4px 12px;
+}
+
+div.list div.bq div[data-type="NodeHeading"] {
+    margin-top: 4px;
+}
+
+/* 设置引用中段落的左内边距 */
+.bq>.p:not(.list .p) {
+    padding-left: 12px !important;
+}

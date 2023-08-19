@@ -1,0 +1,119 @@
+/* 修改大纲标记颜色 */
+/*.sy__outline li .popover__block {
+    color: var(--b3-theme-on-background);
+    border-radius: 1px;
+}*/
+.sy__outline .b3-list-item.b3-list-item--hide-action .b3-list-item__toggle.fn__hidden::before {
+   display:none;
+}
+/*.sy__outline li[data-subtype="h1"] .popover__block {
+    background-color: var(--b3-font-background1);
+}
+
+.sy__outline li[data-subtype="h2"] .popover__block {
+    background-color: var(--b3-font-background2);
+}
+
+.sy__outline li[data-subtype="h3"] .popover__block {
+    background-color: var(--b3-font-background3);
+}
+
+.sy__outline li[data-subtype="h4"] .popover__block {
+    background-color: var(--b3-font-background4);
+}
+
+.sy__outline li[data-subtype="h5"] .popover__block {
+    background-color: var(--b3-font-background5);
+}
+
+.sy__outline li[data-subtype="h6"] .popover__block {
+    background-color: var(--b3-font-background6);
+}*/
+
+.sy__outline .b3-list-item__toggle {
+   padding-left:4px !important;
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h1"] svg.b3-list-item__graphic, .file-tree ul.b3-list.b3-list--background [data-subtype="h2"] svg.b3-list-item__graphic, .file-tree ul.b3-list.b3-list--background [data-subtype="h3"] svg.b3-list-item__graphic, .file-tree ul.b3-list.b3-list--background [data-subtype="h4"] svg.b3-list-item__graphic, .file-tree ul.b3-list.b3-list--background [data-subtype="h5"] svg.b3-list-item__graphic, .file-tree ul.b3-list.b3-list--background [data-subtype="h6"] svg.b3-list-item__graphic {
+   color:transparent !important;
+   margin-left:-28px;
+   padding-left:2px;
+   padding-right:10px;
+   z-index:2;
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h1"]>span:first-child::after{
+        margin-left:3px;
+	content:" ";
+        background-color:#55555a;
+        opacity:0.6;
+        height:3px;
+        width:16px;
+        border-radius:3px;
+        z-index:1;
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h2"]>span:first-child::after{
+        margin-left:3px;
+        margin-right:4px;
+	content:" ";
+        background-color:#55555a;
+        color:#55555a;
+        opacity:0.6;
+        height:3px;
+        width:12px;
+        border-radius:3px;
+        z-index:1;
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h3"]>span:first-child::after{
+        margin-left:3px;
+        margin-right:8px;
+	content:" ";
+        background-color:#55555a;
+        color:#55555a;
+        opacity:0.6;
+        height:3px;
+        width:8px;
+        border-radius:3px;        z-index:1;
+
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h4"]>span:first-child::after{
+        margin-left:3px;
+        margin-right:12px;
+	content:" ";
+        background-color:#55555a;
+        color:#55555a;
+        opacity:0.6;
+        height:3px;
+        width:4px;
+        border-radius:3px;        z-index:1;
+
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h5"]>span:first-child::after{
+        margin-left:3px;
+        margin-right:14px;
+	content:" ";
+        background-color:#55555a;
+        color:#55555a;
+        opacity:0.6;
+        height:2px;
+        width:2px;
+        border-radius:3px;        z-index:1;
+
+}
+.sy__outline .b3-list-item__toggle.fn__hidden{
+	visibility: visible!important;
+        color:transparent;
+}
+.file-tree ul.b3-list.b3-list--background [data-subtype="h6"]>span:first-child::after{
+        margin-left:3px;
+        margin-right:16px;
+	content:" ";
+        background-color:#55555a;
+        color:#55555a;
+        opacity:0.6;
+        height:0px;
+        width:0px;
+        border-radius:3px;        z-index:1;
+
+}
+.b3-list-item__toggle.fn__hidden .b3-list-item__arrow.b3-list-item__arrow--open {
+   color:transparent;
+}
