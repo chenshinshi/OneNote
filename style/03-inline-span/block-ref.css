@@ -6,6 +6,7 @@
     border-radius: 4px;
     text-decoration: 0.1em solid #80808080 underline;
     text-underline-offset: 0.1em;
+    opacity:1;
 }
 
 .protyle-wysiwyg [data-node-id] span[data-type='block-ref']:hover {
