@@ -180,9 +180,25 @@ animation: caidan 0.5s ease-in-out;
 
 .fullscreen {
    z-index:2;
+   top:-30px;
    animation:0.4s fullscreen ease-in-out;
 }
-
+body.body--win32 .fullscreen>.protyle-breadcrumb, body.body--win32 .fullscreen>.block__icons {
+   margin-top:30px;
+}
 .layout-tab-bar .item--full {
    min-width:5em !important;
+}
+/*闪卡悬浮显示*/
+.card__main .protyle-wysiwyg span[data-type~=mark], [data-key="viewCards"] .protyle-wysiwyg span[data-type~=mark] {
+    border-bottom:2px solid var(--b3-protyle-inline-mark-color);
+    background-color:transparent !important;
+    padding: 0 2px;
+    background-image:none;
+}
+.card__block--hidemark span[data-type~=mark] {
+    border-bottom:2px solid var(--b3-protyle-inline-mark-color);
+    background-color:transparent !important;
+    padding: 0 2px;
+    background-image:none;
 }

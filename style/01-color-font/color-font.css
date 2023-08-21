@@ -113,31 +113,29 @@
     --b3-font-color1: #e84c22;
     --b3-font-color2: #ed7d31;
     --b3-font-color3: #ffc000;
-    --b3-font-color4: #70ad47;
-    --b3-font-color5: #1ec3b4;
-    --b3-font-color6: #5b9bd5;
-    --b3-font-color7: #8064a2;
-    --b3-font-color8: #7a878b;
-    --b3-font-color9: #f9dde0;
-    --b3-font-color10: #816405;
+    --b3-font-color4: #816405;
+    --b3-font-color5: #70ad47;
+    --b3-font-color6: #1ec3b4;
+    --b3-font-color7: #1e90ff;
+    --b3-font-color8: #5b9bd5;
+    --b3-font-color9: #8064a2;
+    --b3-font-color10:  #f5539e;
     --b3-font-color11: #d8eff3;
-    --b3-font-color12: #dbf0e0;
+    --b3-font-color12: #ffffff;
     --b3-font-color13: gray;
-
-    /* 13种自定义背景颜色（均取自OneNote） */
     --b3-font-background1: #e5b9b7;
     --b3-font-background2: #fbd5b5;
     --b3-font-background3: #ffff99;
     --b3-font-background4: #d7e3bc;
-    --b3-font-background5: #ccffcc;
-    --b3-font-background6: #b8cce4;
-    --b3-font-background7: #ccc1d9;
-    --b3-font-background8: #c0c0c0;
-    --b3-font-background9: red;
-    --b3-font-background10: rgb(255, 255, 0);
-    --b3-font-background11: blue;
-    --b3-font-background12: green;
-    --b3-font-background13: transparent;
+    --b3-font-background5: #d9f7be;
+    --b3-font-background6: #b5f5ec;
+    --b3-font-background7: #bae7ff;
+    --b3-font-background8: #b8cce4;
+    --b3-font-background9: #ccc1d9;
+    --b3-font-background10: #fae1de;
+    --b3-font-background11: #c0c0c0;
+    --b3-font-background12: var(--b3-theme-on-background);
+    --b3-font-background13: #ffffff;
 
     /* 8种文档树鼠标悬浮颜色 */
     --b3-filetree-background1: #fbd2d4;

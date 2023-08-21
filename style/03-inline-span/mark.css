@@ -19,4 +19,7 @@
     border-radius: 0px;
 }
 
+.b3-typography mark, .b3-typography span[data-type~=mark], .protyle-wysiwyg mark, .protyle-wysiwyg span[data-type~=mark] {
+background-color: var(--b3-protyle-inline-mark-background) !important;
+}
 /* -------------------------------------------------高亮 END----------------------------------------------- */
