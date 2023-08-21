@@ -267,35 +267,35 @@ li.b3-list-item.b3-list-item--hide-action {
 
 /* 针对不同的位置，设置不同的颜色 */
 .b3-list:nth-of-type(8n+1)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color1) !important;
+    background-color: #e84c22 !important;
 }
 
 .b3-list:nth-of-type(8n+2)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color2) !important;
+    background-color: #ed7d31 !important;
 }
 
 .b3-list:nth-of-type(8n+3)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color3) !important;
+    background-color: #ffc000 !important;
 }
 
 .b3-list:nth-of-type(8n+4)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color4) !important;
+    background-color: #70ad47 !important;
 }
 
 .b3-list:nth-of-type(8n+5)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color5) !important;
+    background-color: #1ec3b4 !important;
 }
 
 .b3-list:nth-of-type(8n+6)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color6) !important;
+    background-color: #5b9bd5 !important;
 }
 
 .b3-list:nth-of-type(8n+7)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color7) !important;
+    background-color: #8064a2 !important;
 }
 
 .b3-list:nth-of-type(8n)>[data-type="navigation-root"]::before {
-    background-color: var(--b3-font-color8) !important;
+    background-color: #7a878b !important;
 }
 
 /* 除了笔记本，其他文档背景颜色为透明 */
