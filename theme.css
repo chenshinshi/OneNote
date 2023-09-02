@@ -48,8 +48,6 @@
 @import url("style/03-inline-span/block-ref.css");
 /* 修改超链接样式 */
 @import url("style/03-inline-span/a-link.css");
-/* 引入网址链接前的图标相关代码 */
-@import url("style/link-icon.css");
 /* 给网址链接设置颜色 */
 @import url("style/link-icon-color.css");
 /* 修改标签样式 */
@@ -94,14 +92,8 @@
 @import url("style/05-custom-function-for-file/custom-function-for-file.css");
 /* 增加块的自定义属性 */
 @import url("style/06-custom-function-for-block/custom-function-for-block.css");
-/* 增加 Roy 的列表转思维导图代码 */
-@import url("style/list-to-map.css");
-/* 增加列表转表格代码 */
-@import url("style/list-to-table.css");
 
 /* ————————————————————引入自定义设置———————————————————— */
-/* 搜索界面左右排版 */
-/*@import url("style/CtrlP.css");*/
 /* 引入大家的自定义配置，放到widgets文件夹下，名称为custom.css */
 @import url(/widgets/custom.css);
 
