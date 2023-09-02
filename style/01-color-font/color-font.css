@@ -58,12 +58,6 @@
     /* 错误时文字颜色，保持默认即可 */
     --b3-theme-on-error: white;
 
-    /* 字体 */
-    --b3-font-family: "ProductSans", "OPPOSans", 'PingFang SC', "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei UI", "WenQuanYi Micro Hei", sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --b3-font-family-code: "JetBrains", "JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, "HarmonyOS Sans SC", 'PingFang SC', "Microsoft YaHei", "Liberation Mono", "Courier New", monospace;
-    --b3-font-family-emoji: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji";
-    --b3-font-family-graph: mononoki;
-    --b3-font-family-math: KaTeX_Math;
 
     /* 线条颜色 */
     /* --b3-border-color: rgba(128, 128, 128, 0.1); */

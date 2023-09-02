@@ -12,7 +12,6 @@
     padding-top: 4px !important;
     padding-bottom: 4px !important;
     padding-left: 16px;
-    font-family: var(--b3-font-family-code);
     background-size: 20px 20px;
     background-image: none !important;
     background: var(--b3-theme-background) !important;
@@ -52,7 +51,6 @@
     /* background-color: #f8f9fa; */
     background-color: var(--b3-theme-background) !important;
     margin-bottom: 0px;
-    font-family: var(--b3-font-family-code);
     border-top-left-radius: 4px;
 }
 
@@ -85,13 +83,11 @@
     right: 4em;
     border-radius: 1px;
     opacity: 1 !important;
-    font-family: var(--b3-font-family-code);
 }
 
 .b3-typography .code-block .protyle-action .protyle-action__language::after,
 .protyle-wysiwyg .code-block .protyle-action .protyle-action__language::after {
     content: "›";
-    font-family: var(--b3-font-family-code);
     color: #80808080;
     opacity: 1;
 }

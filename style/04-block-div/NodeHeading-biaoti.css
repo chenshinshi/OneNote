@@ -138,7 +138,6 @@ div[style*="background-color"] div[data-type="NodeHeading"]::before {
     background-color: transparent;
     color: var(--b3-font-color-gray-tm);
     font-size: 20px;
-    font-family: var(--b3-font-family-code);
 }
 
 /* ————————————————————给折叠标题增加背景样式———————————————————— */

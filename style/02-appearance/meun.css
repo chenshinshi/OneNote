@@ -26,7 +26,6 @@
 button.b3-list-item.b3-list-item--two.fn__block .b3-menu__accelerator {
     font-size: 80%;
     color: #80808080;
-    font-family: var(--b3-font-family-code);
 }
 
 /* 设置分栏滚动条宽度 */
@@ -166,7 +165,6 @@ button.b3-list-item.b3-list-item--two.fn__block .b3-menu__accelerator {
     font-size: 80%;
     color: var(--b3-font-color-gray-tm);
     font-weight: bold;
-    font-family: var(--b3-font-family-code);
 }
 
 /* 设置鼠标悬浮时文字完整显示 */
@@ -189,7 +187,6 @@ button.b3-list-item.b3-list-item--two.fn__block:hover {
 .b3-menu__accelerator {
     height: 28px;
     font-size: 80%;
-    font-family: var(--b3-font-family-code);
 }
 
 /* [[调出引用块时候底部文件路径设置 */

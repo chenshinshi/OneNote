@@ -99,25 +99,6 @@
 
 /* ----------------------------------------------------引入结束---------------------------------------------------------- */
 
-@font-face {
-    font-family: 'ProductSans';
-    font-style: normal;
-    src: url('fonts/ProductSans-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'OPPOSans';
-    font-style: normal;
-    src: url('fonts/OPPOSans-M.ttf');
-}
-
-@font-face {
-    font-family: 'JetBrains';
-    font-style: normal;
-    src: url('fonts/JetBrainsMono-Regular.ttf');
-}
-
-
 
 .layout__center .protyle-wysiwyg:not([data-doc-type="NodeDocument"]) {
     animation: focus 0.3s ease-in-out;

@@ -76,7 +76,6 @@ button.b3-color__square[style*="background-color:var(--b3-pdf"] {
 /* ————————————————————设置PDF标注的相关文字———————————————————— */
 button.b3-color__square[style*="background-color:var(--b3-pdf-background"]::before {
     color: #202124;
-    font-family: "Microsoft YaHei";
 }
 
 button.b3-color__square[style="background-color:var(--b3-pdf-background1)"]::before {
