@@ -1,19 +1,18 @@
 /* -----------------------------------------------------------------pdf双链-------------------------------------------------------- */
 
 /* ————————————————————修改PDF双链样式———————————————————— */
-.protyle-wysiwyg [data-node-id] span[data-type='file-annotation-ref'] {
-    color: var(--b3-theme-on-background);
+/*.protyle-wysiwyg [data-node-id] span[data-type='file-annotation-ref'] {
     text-decoration: 1px solid underline var(--b3-theme-primary);
     margin: 0px;
-}
+}*/
 
 
-.protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"]:before {
+/*.protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"]:before {
     content: url("../../src/pdf.svg");
     position: relative;
     top: 0.1em;
     margin-right: 4px;
-}
+}*/
 
 
 
@@ -105,3 +104,15 @@ button.b3-color__square[style="background-color:var(--b3-pdf-background6)"]::bef
 button.b3-color__square[style="background-color:var(--b3-pdf-background7)"]::before {
     content: "紫";
 }
+
+#layouts div.layout__center div[data-type="wnd"] .layout-tab-container .protyle .protyle-content .protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"]::before,.protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]::before{
+   content:"『";
+   color:var(--b3-theme-primary);
+}
+#layouts div.layout__center div[data-type="wnd"] .layout-tab-container .protyle .protyle-content .protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"]::after,.protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]::after{
+   content:"』";
+   color:var(--b3-theme-primary);
+}
+#layouts div.layout__center div[data-type="wnd"] .layout-tab-container .protyle .protyle-content .protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"],.protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]{opacity:1;    color: var(--b3-theme-on-background);
+}
+#layouts div.layout__center div[data-type="wnd"] .layout-tab-container .protyle .protyle-content .protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"]:hover,.protyle-wysiwyg [data-node-id] span[data-type~=file-annotation-ref]:hover{background-color:rgb(119 25 170 / 8%);transition:all .15s cubic-bezier(0, 0, .2, 1) 0ms;}

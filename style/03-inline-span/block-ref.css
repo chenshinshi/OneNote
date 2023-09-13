@@ -13,7 +13,7 @@
     background-color: #f7f7f7;
 }
 
-.protyle-wysiwyg [data-node-id] span[data-type="block-ref"]::before {
+/*.protyle-wysiwyg [data-node-id] span[data-type="block-ref"]::before {
     content: "";
     display: inline-block;
     position: relative;
@@ -25,7 +25,7 @@
     margin-right: 0.2em;
     margin-left: 5px;
     top: 0.17em;
-}
+}*/
 
 /* 去掉h1-h6标题上块引用的下划线 */
 div[data-type="NodeHeading"] span[data-type='block-ref'] {

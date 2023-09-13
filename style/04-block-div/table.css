@@ -46,7 +46,8 @@ tbody tr:nth-child(2n + 1) {
     background: var(--b3-theme-hover2) !important;
     color: var(--b3-theme-primary) !important;
 } */
-.b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td, .protyle-wysiwyg table th {
+.b3-typography table td, .b3-typography table th, .protyle-wysiwyg table td{
    background-color:transparent;
 }
+.protyle-wysiwyg table th{background-color:#f5f5f5}
 /* -------------------------------表格end------------------------------------- */

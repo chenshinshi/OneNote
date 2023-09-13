@@ -175,3 +175,18 @@ body.body--win32 .fullscreen>.protyle-breadcrumb, body.body--win32 .fullscreen>.
     padding: 0 2px;
     background-image:none;
 }
+/*适配伪面包屑插件*/
+.fn__flex-1.protyle:has(.og-fake-doc-breadcrumb-container) .protyle-breadcrumb{box-shadow:unset;border-top:1px dashed #e7e7e7}
+.og-fake-doc-breadcrumb-container.protyle-breadcrumb{box-shadow:0px 8px 10px -5px rgba(128, 128, 128, 0.25) inset !important;border-top:none !important}
+body.body--win32 .fullscreen:has(.og-fake-doc-breadcrumb-container)>.protyle-breadcrumb, body.body--win32 .fullscreen:has(.og-fake-doc-breadcrumb-container)>.block__icons{margin-top:0px}
+.protyle-hint{box-shadow:0 0 2px rgba(0,0,0,0.08), 0 4px 8px rgba(0,0,0,0.10);border-radius:0px}
+.protyle-hint.b3-list.b3-list--background.hint--menu{background:white;}
+/*.protyle-wysiwyg [data-node-id] span[data-type="tag"]{    color: var(--b3-protyle-inline-code-color);    background-color: rgba(119, 25, 170, 0.1);border-radius:10px;padding:3px 6px 2px 6px;font-size:90%}*/
+.color__square:last-child{margin-right:5px}
+.block__popover>.block__icons {
+    border-radius: 0;
+    background: #f8f9fa;
+}
+.protyle-wysiwyg [data-node-id] span[data-type='block-ref']{padding-inline:6px;/*text-decoration-color:var(--b3-theme-primary);text-underline-offset:5px*/}
+.protyle-wysiwyg [data-node-id] span[data-type='block-ref']:hover,.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="siyuan://"]:hover{background-color:rgb(119 25 170 / 8%)}
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="siyuan://"]::before{content:"@";background-image:none;color:var(--b3-theme-primary)}

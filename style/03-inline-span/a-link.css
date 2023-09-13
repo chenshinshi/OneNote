@@ -10,9 +10,8 @@
     top: 0.2em;
     width: 1em;
     height: 1em;
-    margin: 0 0.2em;
+    /*margin: 0 0.2em;*/
 }
-
 .protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty) {
     border-bottom-color: transparent;
     text-decoration: 0.1em solid rgba(128, 128, 128, 0.5) underline;
@@ -53,5 +52,6 @@
     color: var(--b3-theme-primary) !important;
 } */
 
-
+.protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty):not([data-href*="siyuan://"]):not([data-href*="assets/"]){background-color:#ebebeb;border-radius:100px;padding:4px 10px 3px 10px;font-size:90%;text-decoration:none}
+.protyle-wysiwyg [data-node-id] span[data-type="a"]:not(:empty):not([data-href*="siyuan://"]):not([data-href*="assets/"]):hover{background-color:#f9f9f9;}
 /* -----------------------------------------超链接 END----------------------------------- */
