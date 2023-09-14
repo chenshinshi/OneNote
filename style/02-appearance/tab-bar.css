@@ -175,8 +175,8 @@ li.item.item--pin.item--focus:before {
 .item--full:after{display:none !important}
 .item--full:hover:after{display:none !important}
 .layout-tab-bar .item:not(.item--readonly):first-child{margin-left:1.2em}
-.layout-tab-bar .item__close svg{color:var(--b3-theme-on-surface)!important;border:1px dashed var(--b3-theme-on-surface);border-radius:0}
-.layout-tab-bar .item--focus .item__close svg{color:var(--b3-theme-primary)!important;border:1px dashed var(--b3-theme-primary);border-radius:0}
+.layout-tab-bar .item__close svg{color:var(--b3-theme-on-surface)!important;border:1px solid var(--b3-theme-on-surface);border-radius:0}
+.layout-tab-bar .item--focus .item__close svg{color:var(--b3-theme-primary)!important;border:1px solid var(--b3-theme-primary);border-radius:0}
 .layout-tab-bar .item__close{padding:13px 0 13px 13px}
 .item--pin{min-width:4em!important}
 .item--focus.item--pin .item__text{width:9em!important}
