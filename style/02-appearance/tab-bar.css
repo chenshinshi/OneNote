@@ -96,7 +96,7 @@ ul.fn__flex.layout-tab-bar {
 }
 
 /* 为钉住的标签页右上角增加大头钉图标 */
-li.item.item--pin:not(.item--focus):after {
+li.item.item--pin:not(.item--focus):before {
     content: "";
     content: url("../../src/pin.svg");
     position: absolute;
@@ -108,7 +108,7 @@ li.item.item--pin:not(.item--focus):after {
     filter: grayscale(100%);
 }
 
-li.item.item--pin.item--focus:after {
+li.item.item--pin.item--focus:before {
     content: "";
     content: url("../../src/pin.svg") !important;
     position: absolute;
@@ -139,7 +139,11 @@ li.item.item--pin.item--focus:after {
 }
 .layout-tab-bar .item .item__text {
    width:9em;
+   padding:0px 0px 0px 3px;
 }
+/*.layout-tab-bar .item--focus .item__text {
+   width:8em;
+}*/
 .layout__wnd--active .layout-tab-bar .item--focus:after,.layout-tab-bar .item--full.item--focus:after {
    background-color:transparent;
 }
@@ -171,3 +175,10 @@ li.item.item--pin.item--focus:after {
 .item--full:after{display:none !important}
 .item--full:hover:after{display:none !important}
 .layout-tab-bar .item:not(.item--readonly):first-child{margin-left:1.2em}
+.layout-tab-bar .item__close svg{color:var(--b3-theme-on-surface)!important;border:1px dashed var(--b3-theme-on-surface);border-radius:0}
+.layout-tab-bar .item--focus .item__close svg{color:var(--b3-theme-primary)!important;border:1px dashed var(--b3-theme-primary);border-radius:0}
+.layout-tab-bar .item__close{padding:13px 0 13px 13px}
+.item--pin{min-width:4em!important}
+.item--focus.item--pin .item__text{width:9em!important}
+.item--focus.item--pin{min-width:12em!important}
+.item--pin .item__text{width:2em!important}

@@ -190,3 +190,4 @@ body.body--win32 .fullscreen:has(.og-fake-doc-breadcrumb-container)>.protyle-bre
 .protyle-wysiwyg [data-node-id] span[data-type='block-ref']{padding-inline:6px;/*text-decoration-color:var(--b3-theme-primary);text-underline-offset:5px*/}
 .protyle-wysiwyg [data-node-id] span[data-type='block-ref']:hover,.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="siyuan://"]:hover{background-color:rgb(119 25 170 / 8%)}
 .protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="siyuan://"]::before{content:"@";background-image:none;color:var(--b3-theme-primary)}
+.tooltip{background-color:#2b2b2bdd;backdrop-filter:blur(1px)}
