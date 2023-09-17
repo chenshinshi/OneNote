@@ -20,6 +20,10 @@
 }
 
 .b3-typography mark, .b3-typography span[data-type~=mark], .protyle-wysiwyg mark, .protyle-wysiwyg span[data-type~=mark] {
-background-color: var(--b3-protyle-inline-mark-background) !important;
+background-color: inherit;
+background-image: linear-gradient(to bottom, transparent 30%, #fff29d1a 50%, #fff29d);
+animation:addMark 450ms linear;
 }
+
+@keyframes addMark{0%{background-size:1% 100%;background-repeat:no-repeat;}100%{background-size:100% 100%;background-repeat:unset}}
 /* -------------------------------------------------高亮 END----------------------------------------------- */

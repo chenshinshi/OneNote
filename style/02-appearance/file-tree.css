@@ -243,7 +243,7 @@ li.b3-list-item.b3-list-item--hide-action {
 /* ——————————————————————————————————————————多彩文档树部分代码，给笔记本之间增加间隔—————————————————————————————————————————— */
 .fn__flex-1.fn__flex-column.file-tree.sy__file ul.b3-list.b3-list--background {
     border-radius: 1px;
-    margin: 6px 4px 6px 18px;
+    margin: 7px 4px 7px 18px;
     border: 1px solid var(--b3-border-color1);
 }
 
@@ -251,6 +251,7 @@ li.b3-list-item.b3-list-item--hide-action {
 [data-type="navigation-root"] {
     background-color: var(--b3-theme-background2);
     /* font-weight: 600; */
+   margin:0px 8px;
 }
 
 /* 给文档树笔记本前面加上伪元素，模拟OneNote笔记本的效果 */
