@@ -245,3 +245,8 @@ body.body--win32 .fullscreen>.protyle-breadcrumb, body.body--win32 .fullscreen>.
    margin:6px 0px 0px 0px;
 }
 .b3-dialog__close,.b3-dialog__close:hover{opacity:0;cursor:default}
+
+
+html[data-theme-mode="dark"] body {
+    filter: invert(85%) hue-rotate(180deg);
+}

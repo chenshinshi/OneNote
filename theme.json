@@ -2,7 +2,7 @@
   "name": "OneNote",
   "author": "UserZYF",
   "url": "https://github.com/chenshinshi/OneNote",
-  "version": "0.21",
+  "version": "0.22",
     "displayName": {
     "default": "OneNote"
   },
@@ -13,6 +13,7 @@
     "default": "README.md"
   },
   "modes": [
-    "light"
+    "light",
+	"dark"
   ]
 }
