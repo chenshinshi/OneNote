@@ -250,3 +250,38 @@ body.body--win32 .fullscreen>.protyle-breadcrumb, body.body--win32 .fullscreen>.
 html[data-theme-mode="dark"] body {
     filter: invert(85%) hue-rotate(180deg);
 }
+html[data-theme-mode="dark"] body img,
+/*图片*/
+html[data-theme-mode="dark"] body video,
+/*视频*/
+html[data-theme-mode="dark"] body canvas:not(.pdfViewer canvas),
+/*canvas，排除PDF*/
+html[data-theme-mode="dark"] body .protyle-background__icon,
+/*文档头部emj图标*/
+html[data-theme-mode="dark"] body #toolbarVIP,
+/*订阅用户图标*/
+html[data-theme-mode="dark"] body [data-type="tag"]::before,
+/*标签图标*/
+html[data-theme-mode="dark"] body [data-type="file-annotation-ref"]::before,
+/*pdf引用图标*/
+html[data-theme-mode="dark"] body .code-block::after,
+/*pdf引用图标*/
+html[data-theme-mode="dark"] body .b3-list-item__icon,
+/*菜单列表项图标*/
+html[data-theme-mode="dark"] body .b3-list-item__graphic:not(.popover__block),
+/*大纲文档名图标*/
+html[data-theme-mode="dark"] body .emojis__item,
+/*emj面板图标*/
+html[data-theme-mode="dark"] body .emojis__type,
+/*emj面板图标类型图标*/
+html[data-theme-mode="dark"] body .toolbar__item::after,
+/*头栏信息提示泡*/
+html[data-theme-mode="dark"] body .iframe-content>iframe,
+/*iframe*/
+html[data-theme-mode="dark"] body .item__preview,
+html[data-theme-mode="dark"] body .tooltip
+
+{
+    filter: invert(125%) hue-rotate(180deg);
+}
+.b3-typography s, .b3-typography span[data-type~=s], .protyle-wysiwyg s, .protyle-wysiwyg span[data-type~=s]{opacity:.68}
