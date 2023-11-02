@@ -23,8 +23,8 @@
 /* 代码块上方部分设置 */
 .protyle-wysiwyg .code-block,
 .b3-typography .code-block {
-    position: relative;
-    display: block;
+    /*position: relative;
+    display: block;*/
     border-radius: 1px;
     padding-top: 32px !important;
     /* box-shadow: var(--b3-code-block-shadow); */
@@ -46,7 +46,7 @@
 
 /*  ————————————————————————————————————代码块行数——————————————————————————————————*/
 .protyle-linenumber__rows {
-    margin-top: 32px !important;
+    /*margin-top: 32px !important;*/
     padding: 4px;
     /* background-color: #f8f9fa; */
     background-color: var(--b3-theme-background) !important;
