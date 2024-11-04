@@ -285,3 +285,25 @@ html[data-theme-mode="dark"] body .tooltip
     filter: invert(125%) hue-rotate(180deg);
 }
 .b3-typography s, .b3-typography span[data-type~=s], .protyle-wysiwyg s, .protyle-wysiwyg span[data-type~=s]{opacity:.68}
+
+
+.config__tab-wrap{border-radius:0px}
+.card__main .b3-button--success,.card__main .b3-button--warning,.card__main .b3-button--error,.card__main .b3-button--info{transition-property:background-color;
+}
+.card__main .b3-button--success:hover {
+background-color:#beeee7;
+transition-property:background-color;
+box-shadow:unset;
+}
+.card__main .b3-button--warning:hover{background-color:#f7e4a1;
+transition-property:background-color;
+box-shadow:unset;
+}
+.card__main .b3-button--error:hover{background-color:#f7d3b0;
+transition-property:background-color;
+box-shadow:unset;
+}
+.card__main .b3-button--info:hover{background-color:#c6caf6;
+transition-property:background-color;
+box-shadow:unset;
+}
