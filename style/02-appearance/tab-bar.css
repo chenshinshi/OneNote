@@ -119,14 +119,13 @@ li.item.item--pin.item--focus:before {
 }
 
 
-.layout-tab-bar .item--pin .item__text {
+/*.layout-tab-bar .item--pin .item__text {
     display: block !important;
-}
+}*/
 
 /* 去掉标签页上面的emoji */
 .layout-tab-bar .item__icon {
-    display: none;
-}
+margin-right:-24px}
 
 /* --------------------------------------------------标签页 END--------------------------------------------- */
 
@@ -179,6 +178,8 @@ li.item.item--pin.item--focus:before {
 .layout-tab-bar .item--focus .item__close svg{color:var(--b3-theme-primary)!important;border:1px solid var(--b3-theme-primary);border-radius:0}
 .layout-tab-bar .item__close{padding:13px 0 13px 13px}
 .item--pin{min-width:4em!important}
-.item--focus.item--pin .item__text{width:9em!important}
+.item--focus.item--pin .item__text{display:block !important;width:9em!important}
 .item--focus.item--pin{min-width:12em!important}
 .item--pin .item__text{width:2em!important}
+
+
