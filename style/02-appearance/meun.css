@@ -272,9 +272,9 @@ min-height: 160px !important;
 }
 .color__square {
    border-radius:50px;
-   transform:scale(1.5);
+   /*transform:scale(1.5);*/
    box-shadow:unset;
-   margin:0px 6px;
+   /*margin:0px 6px;*/
    position:relative;
 }
 .protyle-font .b3-select{
