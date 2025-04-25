@@ -312,3 +312,11 @@ box-shadow:unset;
 .emojis__item{width:35px;height:35px}
 .emojis__type{border-top:1px solid var(--b3-border-color);margin-top:5px;padding-top:5px}
 .protyle-font{font-weight:600;color:#808080}
+
+.av__header .layout-tab-bar .item:not(.item--readonly){min-width:0em!important;padding-right:0em;border-radius:10px 10px 0px 0px!important;background:transparent}
+.av__header .item__text{width:fit-content!important;padding-right:1em!important}
+.av__header .layout-tab-bar .item--focus:after{width:100%}
+.av__header .layout-tab-bar{background:transparent}
+.av__header .layout-tab-bar .item__graphic{margin-left:0.5em}
+.av__header .layout-tab-bar .item__graphic{color:#55555a4d}
+.av__header .layout-tab-bar .item--focus .item__graphic{color:var(--b3-theme-on-background) !important}
