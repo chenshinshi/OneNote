@@ -236,12 +236,12 @@ body.body--win32 .fullscreen>.protyle-breadcrumb, body.body--win32 .fullscreen>.
     padding-left: 12px !important;
 }
 #searchList [data-type="search-item"], #globalSearchList [data-type="search-item"] {
-    margin-top:6px;
-    padding:2px 2px 4px 2px;
+    padding:5px 2px 7px 2px!important;
     /*border-bottom:3px dotted var(--b3-border-color);*/
     border-radius: 0px 0px 0px 0px;
     /*padding-bottom:12px !important;*/
-   margin:6px 0px 0px 0px;
+   margin:0px 0px 0px 0px;
+   transition:background-color 0.1s;
 }
 .b3-dialog__close,.b3-dialog__close:hover{opacity:0;cursor:default}
 
@@ -320,3 +320,9 @@ box-shadow:unset;
 .av__header .layout-tab-bar .item__graphic{margin-left:0.5em}
 .av__header .layout-tab-bar .item__graphic{color:#55555a4d}
 .av__header .layout-tab-bar .item--focus .item__graphic{color:var(--b3-theme-on-background) !important}
+
+#searchList [data-type="search-item"]:hover, #globalSearchList [data-type="search-item"]:hover,.config__panel>.b3-tab-bar .b3-list-item:hover,.protyle-hint.b3-list.b3-list--background.hint--menu .b3-list-item:hover{background-color:rgba(154, 153, 155, .12) !important;
+}
+.config__panel>.b3-tab-bar .b3-list-item,.protyle-hint.b3-list.b3-list--background.hint--menu .b3-list-item,.b3-menu__item{
+	transition:background-color 0.1s;
+}
