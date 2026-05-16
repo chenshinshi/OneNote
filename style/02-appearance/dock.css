@@ -37,9 +37,8 @@
 /* 给左侧dock栏设置右边框 */
 div#dockLeft {
     border-right: 1px solid rgba(0, 0, 0, .07);
-    background-color: #f3f2f0;
+   /* background-color: #f3f2f0;*/
 }
-
 
 /* 给右侧dock栏设置左边框 */
 div#dockRight {

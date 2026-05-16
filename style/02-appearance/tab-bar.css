@@ -125,7 +125,7 @@ li.item.item--pin.item--focus:before {
 
 /* 去掉标签页上面的emoji */
 .layout-tab-bar .item__icon {
-margin-right:-24px}
+margin-right:-24px;margin-bottom:9px}
 
 /* --------------------------------------------------标签页 END--------------------------------------------- */
 
@@ -138,7 +138,10 @@ margin-right:-24px}
 }
 .layout-tab-bar .item .item__text {
    width:9em;
-   padding:0px 0px 0px 3px;
+    padding: 0px 0px 10px 3px;
+}
+.av__header .layout-tab-bar .item__graphic{
+	padding:0px 0 7px 8px;
 }
 /*.layout-tab-bar .item--focus .item__text {
    width:8em;
